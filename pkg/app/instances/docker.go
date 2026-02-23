@@ -42,6 +42,7 @@ const DockerIMType IMType = "docker"
 type DockerIMConfig struct {
 	DockerImageName      string
 	HostOrchestratorPort int
+	Test		     string
 }
 
 const (
